@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30EECDB2-3AD8-4E14-85ED-0176EBD7A985}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wResAPI_d3xd</RootNamespace>
+    <AssemblyName>wResAPI_d3xd</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonServices">
+      <HintPath>..\..\WebAPI_JSON_Retail_back\WebAPI_JSON_Retail\bin\JsonServices.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonServices.Web">
+      <HintPath>..\..\WebAPI_JSON_Retail_back\WebAPI_JSON_Retail\bin\JsonServices.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="kssLibWeb">
+      <HintPath>..\..\WebAPI_JSON_Retail_back\WebAPI_JSON_Retail\bin\kssLibWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.10.9\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.10.9\Assemblies\v4.5.2\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="frmInventario.aspx" />
+    <Content Include="frmDivisas.aspx" />
+    <Content Include="frmVerificador.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="frmConfig.aspx" />
+    <Content Include="frmPublicidad.aspx" />
+    <Content Include="Imagenes\Banner kalixto.png" />
+    <Content Include="Imagenes\kss POS-91 %282%29.png" />
+    <Content Include="Imagenes\KssLogo.png" />
+    <Content Include="Imagenes\Logo.jpg" />
+    <Content Include="KSS.ico" />
+    <Content Include="Main_Style.css" />
+    <Content Include="Imagenes\panel465x281.jpg" />
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Publicidad\publicidad.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsConfigApp.cs" />
+    <Compile Include="clsUtilClass.cs" />
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSRetail.cs">
+      <DependentUpon>DSRetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSRetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSRetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\inven_verificador.cs" />
+    <Compile Include="Entities\iva_verificador.cs" />
+    <Compile Include="Entities\kalixtomarket\Almacenes.cs" />
+    <Compile Include="Entities\kalixtomarket\Almacenes_Ajuste.cs" />
+    <Compile Include="Entities\kalixtomarket\Cajas.cs" />
+    <Compile Include="Entities\kalixtomarket\Cajas_Cortes.cs" />
+    <Compile Include="Entities\kalixtomarket\Cajas_Cortes_IF.cs" />
+    <Compile Include="Entities\kalixtomarket\Cajas_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Cajas_EgresosIngresos.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Club.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Club_Medidas.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Registros_Visitas.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Ret_ISRL.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Ret_IVA.cs" />
+    <Compile Include="Entities\kalixtomarket\Clientes_Saldo.cs" />
+    <Compile Include="Entities\kalixtomarket\Compras.cs" />
+    <Compile Include="Entities\kalixtomarket\Compras_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Compras_Detalle_Impuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Compras_Impuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Empleados.cs" />
+    <Compile Include="Entities\kalixtomarket\Empleados_Club.cs" />
+    <Compile Include="Entities\kalixtomarket\Empresa.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Dipositivo_VisorPrecios.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Dispositivos.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Dispositivos_GavetaDinero.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Dispositivo_Balanza.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Dispositivo_Impresora.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Reportes.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Sesiones.cs" />
+    <Compile Include="Entities\kalixtomarket\Estaciones_Sesiones_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Descuentos.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Detalle_Descuentos.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Detalle_Impuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_FormasPago.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_IF.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Impuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Modificadas.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Modificadas_IF.cs" />
+    <Compile Include="Entities\kalixtomarket\Facturas_Servicios.cs" />
+    <Compile Include="Entities\kalixtomarket\Licencias.cs" />
+    <Compile Include="Entities\kalixtomarket\Modulos.cs" />
+    <Compile Include="Entities\kalixtomarket\Msfavorites.cs" />
+    <Compile Include="Entities\kalixtomarket\Msmreports.cs" />
+    <Compile Include="Entities\kalixtomarket\Pedidos.cs" />
+    <Compile Include="Entities\kalixtomarket\Pedidos_Descuentos.cs" />
+    <Compile Include="Entities\kalixtomarket\Pedidos_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Compuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Compuestos_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Detalle_Calzado.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Detalle_Club.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Detalle_Farmacia.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Detalle_Supermercado.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Existencia.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Impuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_MateriaPrima.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Monedas.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Oferta.cs" />
+    <Compile Include="Entities\kalixtomarket\Productos_Promociones.cs" />
+    <Compile Include="Entities\kalixtomarket\Proveedores.cs" />
+    <Compile Include="Entities\kalixtomarket\Sucursales.cs" />
+    <Compile Include="Entities\kalixtomarket\Sucursales_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\SysDB_Errors.cs" />
+    <Compile Include="Entities\kalixtomarket\Sysdiagrams.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoAreasComunes.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoBanco.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoCargo.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoComercio.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoContrato.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoDescuentos.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoDescuentos_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoEgresoIngreso.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoGrupoClientes.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoGrupoUsuario.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoImpuestos.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoImpuestos_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoMonedas.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoMonedas_denominaciones.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoMonedas_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoOfertas.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoPago.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoPago_Doc.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoProductos.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoProductos_Grupo.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoProductos_Marcas.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoPromociones.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoUnidadesMedida.cs" />
+    <Compile Include="Entities\kalixtomarket\TipoZonas.cs" />
+    <Compile Include="Entities\kalixtomarket\Usuarios.cs" />
+    <Compile Include="Entities\kalixtomarket\Usuarios_Detalle.cs" />
+    <Compile Include="Entities\kalixtomarket\Usuarios_Grupo.cs" />
+    <Compile Include="Entities\kalixtomarket\Usuarios_Roles.cs" />
+    <Compile Include="Entities\kalixtomarket\Usuarios_RolesModulos.cs" />
+    <Compile Include="Entities\kalixtomarket\Vendedores.cs" />
+    <Compile Include="Entities\kalixtomarket\Ven_Municipios.cs" />
+    <Compile Include="Entities\kalixtomarket\Ven_Parroquias.cs" />
+    <Compile Include="Entities\kalixtomarket\World_Idiomas.cs" />
+    <Compile Include="Entities\kalixtomarket\World_Localidades.cs" />
+    <Compile Include="Entities\kalixtomarket\World_Paises.cs" />
+    <Compile Include="Entities\kalixtomarket\World_Profesiones.cs" />
+    <Compile Include="Entities\kalixtomarket\World_Regiones.cs" />
+    <Compile Include="Entities\kalixtomarket\World_UnidadesMedida.cs" />
+    <Compile Include="Entities\RetailShop\AJUSTE.cs" />
+    <Compile Include="Entities\RetailShop\AJUSTE_DET.cs" />
+    <Compile Include="Entities\RetailShop\AJUSTE_TEMP.cs" />
+    <Compile Include="Entities\RetailShop\ANSWERS.cs" />
+    <Compile Include="Entities\RetailShop\AUDIT.cs" />
+    <Compile Include="Entities\RetailShop\AUTORIZA.cs" />
+    <Compile Include="Entities\RetailShop\BALANZALAN.cs" />
+    <Compile Include="Entities\RetailShop\BALANZASERIAL.cs" />
+    <Compile Include="Entities\RetailShop\BANCOS.cs" />
+    <Compile Include="Entities\RetailShop\BANCOS_CUENTAS.cs" />
+    <Compile Include="Entities\RetailShop\BEMAOB.cs" />
+    <Compile Include="Entities\RetailShop\BEMA_DPTO.cs" />
+    <Compile Include="Entities\RetailShop\BEMA_IMP.cs" />
+    <Compile Include="Entities\RetailShop\BEMA_TOTA.cs" />
+    <Compile Include="Entities\RetailShop\BOTON.cs" />
+    <Compile Include="Entities\RetailShop\CAJA01.cs" />
+    <Compile Include="Entities\RetailShop\CAJAP01.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_CONSOLIDADO_PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_DEPOSITO_BANCO.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_DEPOSITO_BANCO_DET.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_DEPOSITO_BANCO_DET_DESG.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_DET_PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\CAJAS_PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\CAJA_PROMOCIONAL.cs" />
+    <Compile Include="Entities\RetailShop\CAJA_PROMO_ACUM.cs" />
+    <Compile Include="Entities\RetailShop\CAJA_PROMO_HISTO.cs" />
+    <Compile Include="Entities\RetailShop\CAJA_PROMO_NIVEL.cs" />
+    <Compile Include="Entities\RetailShop\CAJEROE01.cs" />
+    <Compile Include="Entities\RetailShop\CAMPOS_USUARIOS.cs" />
+    <Compile Include="Entities\RetailShop\CAPTURA.cs" />
+    <Compile Include="Entities\RetailShop\CAPTURA_DATOS_BAL.cs" />
+    <Compile Include="Entities\RetailShop\CARGOS.cs" />
+    <Compile Include="Entities\RetailShop\CISTERNAS.cs" />
+    <Compile Include="Entities\RetailShop\CIUDAD.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTES_ABONOS.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTES_APLICA_SALDO.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTES_MOV.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_CONTACTOS.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_DIRECCION.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_MATRICULA.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_PREPAGO.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_RETENCIONES.cs" />
+    <Compile Include="Entities\RetailShop\CLIENTE_TIPO_AFILIACION.cs" />
+    <Compile Include="Entities\RetailShop\CODIGOS_ALTERNOS.cs" />
+    <Compile Include="Entities\RetailShop\CODINTER.cs" />
+    <Compile Include="Entities\RetailShop\COD_PRO.cs" />
+    <Compile Include="Entities\RetailShop\COMBO_SERVICIO.cs" />
+    <Compile Include="Entities\RetailShop\COMISION_GRUPO.cs" />
+    <Compile Include="Entities\RetailShop\COMISION_PROD.cs" />
+    <Compile Include="Entities\RetailShop\COMPRAS.cs" />
+    <Compile Include="Entities\RetailShop\COMPRAS_ajuste.cs" />
+    <Compile Include="Entities\RetailShop\COMPRAS_ORDEN.cs" />
+    <Compile Include="Entities\RetailShop\COMP_ACTIVO.cs" />
+    <Compile Include="Entities\RetailShop\CONC_GASTOS.cs" />
+    <Compile Include="Entities\RetailShop\CONFBALANZA.cs" />
+    <Compile Include="Entities\RetailShop\CONFIESCANER.cs" />
+    <Compile Include="Entities\RetailShop\CONFLIS.cs" />
+    <Compile Include="Entities\RetailShop\CONF_JDE.cs" />
+    <Compile Include="Entities\RetailShop\CONF_JDE_DCT.cs" />
+    <Compile Include="Entities\RetailShop\CONF_SAPB1.cs" />
+    <Compile Include="Entities\RetailShop\CONSOLIDADO_CAJERO.cs" />
+    <Compile Include="Entities\RetailShop\CONTEO_FIS.cs" />
+    <Compile Include="Entities\RetailShop\CONTEO_FIS_DET.cs" />
+    <Compile Include="Entities\RetailShop\CORREINV.cs" />
+    <Compile Include="Entities\RetailShop\CORRELAAC.cs" />
+    <Compile Include="Entities\RetailShop\CORRELABP.cs" />
+    <Compile Include="Entities\RetailShop\CORRELACF.cs" />
+    <Compile Include="Entities\RetailShop\CORRELACI.cs" />
+    <Compile Include="Entities\RetailShop\CORRELACOD.cs" />
+    <Compile Include="Entities\RetailShop\CORRELACONTROL_GUIA.cs" />
+    <Compile Include="Entities\RetailShop\CORRELAFA.cs" />
+    <Compile Include="Entities\RetailShop\CORRELARET.cs" />
+    <Compile Include="Entities\RetailShop\CORRELATIVOS_.cs" />
+    <Compile Include="Entities\RetailShop\CORRELATRA.cs" />
+    <Compile Include="Entities\RetailShop\CORRELA_PME.cs" />
+    <Compile Include="Entities\RetailShop\CORRELA_PRO.cs" />
+    <Compile Include="Entities\RetailShop\CORTE.cs" />
+    <Compile Include="Entities\RetailShop\CREDITO_TERPAGO.cs" />
+    <Compile Include="Entities\RetailShop\CRONO.cs" />
+    <Compile Include="Entities\RetailShop\DATOS.cs" />
+    <Compile Include="Entities\RetailShop\DATOSCONF.cs" />
+    <Compile Include="Entities\RetailShop\DATOS_EXP_ASIENTO.cs" />
+    <Compile Include="Entities\RetailShop\DCOMPRAS.cs" />
+    <Compile Include="Entities\RetailShop\DENOMINA_MONEDA.cs" />
+    <Compile Include="Entities\RetailShop\DESCU.cs" />
+    <Compile Include="Entities\RetailShop\DESCU_PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\DETALLE_PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\DIST_EFECTIVO_X.cs" />
+    <Compile Include="Entities\RetailShop\DIST_EFECTIVO_Z.cs" />
+    <Compile Include="Entities\RetailShop\DPTO.cs" />
+    <Compile Include="Entities\RetailShop\DPTO_CAJAS.cs" />
+    <Compile Include="Entities\RetailShop\DPTO_ITEMS.cs" />
+    <Compile Include="Entities\RetailShop\EGRESOS.cs" />
+    <Compile Include="Entities\RetailShop\EGRESOS_DETALLE.cs" />
+    <Compile Include="Entities\RetailShop\EGRESOS_GASTOS.cs" />
+    <Compile Include="Entities\RetailShop\EMPLE.cs" />
+    <Compile Include="Entities\RetailShop\ENLACE_PLANTILLA_PRODUCTO.cs" />
+    <Compile Include="Entities\RetailShop\ERROR_DB.cs" />
+    <Compile Include="Entities\RetailShop\ESTACIONES.cs" />
+    <Compile Include="Entities\RetailShop\ESTACION_PLANTILLA_CLIENTE.cs" />
+    <Compile Include="Entities\RetailShop\ESTACION_PLANTILLA_PRODUCTO.cs" />
+    <Compile Include="Entities\RetailShop\ESTADOS.cs" />
+    <Compile Include="Entities\RetailShop\ESTA_PROD.cs" />
+    <Compile Include="Entities\RetailShop\ETIBARRA.cs" />
+    <Compile Include="Entities\RetailShop\EXIS.cs" />
+    <Compile Include="Entities\RetailShop\EXIS_ESTACION.cs" />
+    <Compile Include="Entities\RetailShop\FACTU.cs" />
+    <Compile Include="Entities\RetailShop\FACTU_VERIFI.cs" />
+    <Compile Include="Entities\RetailShop\FLETE_DESTINO.cs" />
+    <Compile Include="Entities\RetailShop\FLETE_TRANSPORTE.cs" />
+    <Compile Include="Entities\RetailShop\FLETE_VALOR.cs" />
+    <Compile Include="Entities\RetailShop\FORMATO_CODCLI.cs" />
+    <Compile Include="Entities\RetailShop\GRUINV.cs" />
+    <Compile Include="Entities\RetailShop\GRUPO_USUARIO.cs" />
+    <Compile Include="Entities\RetailShop\GRUPO_VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\GRU_CLI.cs" />
+    <Compile Include="Entities\RetailShop\HABLADORES.cs" />
+    <Compile Include="Entities\RetailShop\IDENTIFI.cs" />
+    <Compile Include="Entities\RetailShop\IDENTIFI_DETAILS.cs" />
+    <Compile Include="Entities\RetailShop\IMPORTACOMPRA.cs" />
+    <Compile Include="Entities\RetailShop\IMPRI_ETI.cs" />
+    <Compile Include="Entities\RetailShop\INACTIVO_ID.cs" />
+    <Compile Include="Entities\RetailShop\Indices.cs" />
+    <Compile Include="Entities\RetailShop\INVEN.cs" />
+    <Compile Include="Entities\RetailShop\EXIS_Movimiento.cs" />
+    <Compile Include="Entities\RetailShop\ISLAS.cs" />
+    <Compile Include="Entities\RetailShop\ITEMS.cs" />
+    <Compile Include="Entities\RetailShop\LOTE_PRODUCTO.cs" />
+    <Compile Include="Entities\RetailShop\MAPEO_UDC.cs" />
+    <Compile Include="Entities\RetailShop\MARCAS.cs" />
+    <Compile Include="Entities\RetailShop\MENU_ACCESO.cs" />
+    <Compile Include="Entities\RetailShop\MENU_BARRA.cs" />
+    <Compile Include="Entities\RetailShop\MENU_USUARIO.cs" />
+    <Compile Include="Entities\RetailShop\MONEDAE.cs" />
+    <Compile Include="Entities\RetailShop\MONEDAS.cs" />
+    <Compile Include="Entities\RetailShop\MOVI.cs" />
+    <Compile Include="Entities\RetailShop\MOVI_OBS.cs" />
+    <Compile Include="Entities\RetailShop\NCONTROL.cs" />
+    <Compile Include="Entities\RetailShop\NCONTROL_C.cs" />
+    <Compile Include="Entities\RetailShop\NDCOMPRAS_C.cs" />
+    <Compile Include="Entities\RetailShop\NOTA_CRE_INT.cs" />
+    <Compile Include="Entities\RetailShop\OPERADOR.cs" />
+    <Compile Include="Entities\RetailShop\OPTIONACCESS.cs" />
+    <Compile Include="Entities\RetailShop\ORDEN_TRABAJO.cs" />
+    <Compile Include="Entities\RetailShop\PAGINA.cs" />
+    <Compile Include="Entities\RetailShop\PAGOS.cs" />
+    <Compile Include="Entities\RetailShop\PAGOS_COMISION_PVB.cs" />
+    <Compile Include="Entities\RetailShop\PAGOS_PUNTOS_BANCARIOS.cs" />
+    <Compile Include="Entities\RetailShop\PAIS.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_BASE.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_COMBI.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_COMBITINTA.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_COMPUESTA.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_TINTA.cs" />
+    <Compile Include="Entities\RetailShop\PINTURA_TIPO.cs" />
+    <Compile Include="Entities\RetailShop\PLANTILLA_PRODUCTO.cs" />
+    <Compile Include="Entities\RetailShop\PRESUPUESTOS.cs" />
+    <Compile Include="Entities\RetailShop\PRESU_ITEMS.cs" />
+    <Compile Include="Entities\RetailShop\PROD_ENVIAR_BAL.cs" />
+    <Compile Include="Entities\RetailShop\PROMO.cs" />
+    <Compile Include="Entities\RetailShop\PROMO_RIFA.cs" />
+    <Compile Include="Entities\RetailShop\PROMO_RIFA_PROD.cs" />
+    <Compile Include="Entities\RetailShop\PROVEE.cs" />
+    <Compile Include="Entities\RetailShop\PROVEE_ABONOS.cs" />
+    <Compile Include="Entities\RetailShop\PROVEE_MOV.cs" />
+    <Compile Include="Entities\RetailShop\PROV_PRODUCTO.cs" />
+    <Compile Include="Entities\RetailShop\RANGO_ID.cs" />
+    <Compile Include="Entities\RetailShop\RAZON_NC.cs" />
+    <Compile Include="Entities\RetailShop\RECARGOS.cs" />
+    <Compile Include="Entities\RetailShop\RECETA_PRO.cs" />
+    <Compile Include="Entities\RetailShop\RECOMENDACION_TIPO_VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\REDONDEO.cs" />
+    <Compile Include="Entities\RetailShop\REDONDEOG.cs" />
+    <Compile Include="Entities\RetailShop\REGISTRO_HISTO.cs" />
+    <Compile Include="Entities\RetailShop\RELACION_DEVOLU.cs" />
+    <Compile Include="Entities\RetailShop\REPORTES_USUARIOS.cs" />
+    <Compile Include="Entities\RetailShop\RESPONSABLE_DEPOSITO.cs" />
+    <Compile Include="Entities\RetailShop\RETENCIONES.cs" />
+    <Compile Include="Entities\RetailShop\RUTAS.cs" />
+    <Compile Include="Entities\RetailShop\SECTORES.cs" />
+    <Compile Include="Entities\RetailShop\SERIALES.cs" />
+    <Compile Include="Entities\RetailShop\SERIALES_ESTADO.cs" />
+    <Compile Include="Entities\RetailShop\SERVICIO.cs" />
+    <Compile Include="Entities\RetailShop\SERVICIOS_TIPVEHI_ITEMS.cs" />
+    <Compile Include="Entities\RetailShop\SERVICIOS_TIPVEHI_ITEMS_AUX.cs" />
+    <Compile Include="Entities\RetailShop\SERVICIO_TIPO_COMBO.cs" />
+    <Compile Include="Entities\RetailShop\SERVICIO_TIPO_VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\SERVRECO_TIPO_VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\SINC_SAPB1.cs" />
+    <Compile Include="Entities\RetailShop\SPARKDAT.cs" />
+    <Compile Include="Entities\RetailShop\SUCURSALES.cs" />
+    <Compile Include="Entities\RetailShop\SUFIJOS_CODIGOS.cs" />
+    <Compile Include="Entities\RetailShop\SYS_LOCK.cs" />
+    <Compile Include="Entities\RetailShop\TABLAS_USUARIOS.cs" />
+    <Compile Include="Entities\RetailShop\TABONOS.cs" />
+    <Compile Include="Entities\RetailShop\TABULADOR_PRECIOS.cs" />
+    <Compile Include="Entities\RetailShop\TAR_SERVICIO.cs" />
+    <Compile Include="Entities\RetailShop\TASK_SYNC.cs" />
+    <Compile Include="Entities\RetailShop\TASK_SYNC_LOG.cs" />
+    <Compile Include="Entities\RetailShop\TAX.cs" />
+    <Compile Include="Entities\RetailShop\TCOMPRAS.cs" />
+    <Compile Include="Entities\RetailShop\TCOMPRAS_ORDEN.cs" />
+    <Compile Include="Entities\RetailShop\TDEV_COMPRAS.cs" />
+    <Compile Include="Entities\RetailShop\TICKET.cs" />
+    <Compile Include="Entities\RetailShop\TIPOP.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_ALMACENAMIENTO.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_CONTROL_SANITARIO.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_EMPA.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_MOV.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_SALDO_FAVOR.cs" />
+    <Compile Include="Entities\RetailShop\TIPO_VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\TITULOS_DOCS.cs" />
+    <Compile Include="Entities\RetailShop\TOTALES.cs" />
+    <Compile Include="Entities\RetailShop\TRANSFERENCIA.cs" />
+    <Compile Include="Entities\RetailShop\TRANSFE_DET.cs" />
+    <Compile Include="Entities\RetailShop\VEHICULO.cs" />
+    <Compile Include="Entities\RetailShop\VEHICULO_CLIENTE.cs" />
+    <Compile Include="Entities\RetailShop\VEHICULO_HIST_SERV.cs" />
+    <Compile Include="Entities\RetailShop\VEHICULO_HIST_SERV_DET.cs" />
+    <Compile Include="Entities\RetailShop\VENDEDOR.cs" />
+    <Compile Include="Entities\RetailShop\VENDEDOR_ITEMS.cs" />
+    <Compile Include="Entities\RetailShop\VENTAS_ESPERA.cs" />
+    <Compile Include="Entities\RetailShop\VENTAS_ESPERA_DET.cs" />
+    <Compile Include="frmConfig.aspx.cs">
+      <DependentUpon>frmConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmConfig.aspx.designer.cs">
+      <DependentUpon>frmConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventario.aspx.cs">
+      <DependentUpon>frmInventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmInventario.aspx.designer.cs">
+      <DependentUpon>frmInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDivisas.aspx.cs">
+      <DependentUpon>frmDivisas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDivisas.aspx.designer.cs">
+      <DependentUpon>frmDivisas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerificador.aspx.cs">
+      <DependentUpon>frmVerificador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmVerificador.aspx.designer.cs">
+      <DependentUpon>frmVerificador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPublicidad.aspx.cs">
+      <DependentUpon>frmPublicidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPublicidad.aspx.designer.cs">
+      <DependentUpon>frmPublicidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="IServiceAPI.cs" />
+    <Compile Include="JSONParser.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="otrmoney.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="productos.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RestAPI.cs" />
+    <Compile Include="ServiceAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DSRetail.xsc">
+      <DependentUpon>DSRetail.xsd</DependentUpon>
+    </Content>
+    <None Include="DSRetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSRetail.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DSRetail.xss">
+      <DependentUpon>DSRetail.xsd</DependentUpon>
+    </Content>
+    <Content Include="Handler1.ashx" />
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\jsonwebapi.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>KSS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34230</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:34230/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>http://192.168.0.101/WebAPI_JSON_Retail/</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

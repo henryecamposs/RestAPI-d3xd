@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="d3xd_dbaseModelStoreContainer" CdmEntityContainer="d3xd_dbaseEntities">
+    <EntitySetMapping Name="productos">
+      <EntityTypeMapping TypeName="d3xd_dbaseModel.productos">
+        <MappingFragment StoreEntitySet="productos">
+          <ScalarProperty Name="pcode" ColumnName="pcode" />
+          <ScalarProperty Name="preferencia" ColumnName="preferencia" />
+          <ScalarProperty Name="pdescribe" ColumnName="pdescribe" />
+          <ScalarProperty Name="pdepaid" ColumnName="pdepaid" />
+          <ScalarProperty Name="pdepartamento" ColumnName="pdepartamento" />
+          <ScalarProperty Name="plinid" ColumnName="plinid" />
+          <ScalarProperty Name="psublinea" ColumnName="psublinea" />
+          <ScalarProperty Name="plinida" ColumnName="plinida" />
+          <ScalarProperty Name="psublineaa" ColumnName="psublineaa" />
+          <ScalarProperty Name="pmarid" ColumnName="pmarid" />
+          <ScalarProperty Name="pmarca" ColumnName="pmarca" />
+          <ScalarProperty Name="pproid" ColumnName="pproid" />
+          <ScalarProperty Name="pproveedor" ColumnName="pproveedor" />
+          <ScalarProperty Name="pgarantia" ColumnName="pgarantia" />
+          <ScalarProperty Name="pextras" ColumnName="pextras" />
+          <ScalarProperty Name="pcosto" ColumnName="pcosto" />
+          <ScalarProperty Name="pcostoreal" ColumnName="pcostoreal" />
+          <ScalarProperty Name="pgastos" ColumnName="pgastos" />
+          <ScalarProperty Name="pdesc1" ColumnName="pdesc1" />
+          <ScalarProperty Name="pventa1" ColumnName="pventa1" />
+          <ScalarProperty Name="pporc1" ColumnName="pporc1" />
+          <ScalarProperty Name="pventa2" ColumnName="pventa2" />
+          <ScalarProperty Name="pporc2" ColumnName="pporc2" />
+          <ScalarProperty Name="pventa3" ColumnName="pventa3" />
+          <ScalarProperty Name="pporc3" ColumnName="pporc3" />
+          <ScalarProperty Name="pventa4" ColumnName="pventa4" />
+          <ScalarProperty Name="pporc4" ColumnName="pporc4" />
+          <ScalarProperty Name="pventa5" ColumnName="pventa5" />
+          <ScalarProperty Name="pporc5" ColumnName="pporc5" />
+          <ScalarProperty Name="pempaque" ColumnName="pempaque" />
+          <ScalarProperty Name="pmaxp2" ColumnName="pmaxp2" />
+          <ScalarProperty Name="pmaxp3" ColumnName="pmaxp3" />
+          <ScalarProperty Name="pmedida" ColumnName="pmedida" />
+          <ScalarProperty Name="pmedempaque" ColumnName="pmedempaque" />
+          <ScalarProperty Name="piva" ColumnName="piva" />
+          <ScalarProperty Name="pserialchk" ColumnName="pserialchk" />
+          <ScalarProperty Name="pden" ColumnName="pden" />
+          <ScalarProperty Name="pexiste" ColumnName="pexiste" />
+          <ScalarProperty Name="pdeposito1" ColumnName="pdeposito1" />
+          <ScalarProperty Name="pdeposito2" ColumnName="pdeposito2" />
+          <ScalarProperty Name="pdeposito3" ColumnName="pdeposito3" />
+          <ScalarProperty Name="pdeposito4" ColumnName="pdeposito4" />
+          <ScalarProperty Name="pdeposito5" ColumnName="pdeposito5" />
+          <ScalarProperty Name="pdeposito6" ColumnName="pdeposito6" />
+          <ScalarProperty Name="pdeposito7" ColumnName="pdeposito7" />
+          <ScalarProperty Name="pdeposito8" ColumnName="pdeposito8" />
+          <ScalarProperty Name="pdeposito9" ColumnName="pdeposito9" />
+          <ScalarProperty Name="pdeposito10" ColumnName="pdeposito10" />
+          <ScalarProperty Name="pubicaplace" ColumnName="pubicaplace" />
+          <ScalarProperty Name="pcomprometido" ColumnName="pcomprometido" />
+          <ScalarProperty Name="papartado" ColumnName="papartado" />
+          <ScalarProperty Name="pproduce" ColumnName="pproduce" />
+          <ScalarProperty Name="pcostoxuniini" ColumnName="pcostoxuniini" />
+          <ScalarProperty Name="pinventarioinicial" ColumnName="pinventarioinicial" />
+          <ScalarProperty Name="pcostoinventi" ColumnName="pcostoinventi" />
+          <ScalarProperty Name="pentradasx" ColumnName="pentradasx" />
+          <ScalarProperty Name="ptotalentradas" ColumnName="ptotalentradas" />
+          <ScalarProperty Name="psalidasx" ColumnName="psalidasx" />
+          <ScalarProperty Name="ptotalsalidas" ColumnName="ptotalsalidas" />
+          <ScalarProperty Name="pajustadox" ColumnName="pajustadox" />
+          <ScalarProperty Name="ptotalajustado" ColumnName="ptotalajustado" />
+          <ScalarProperty Name="ptrasladoenviado" ColumnName="ptrasladoenviado" />
+          <ScalarProperty Name="ptrasladorecibido" ColumnName="ptrasladorecibido" />
+          <ScalarProperty Name="pproducido" ColumnName="pproducido" />
+          <ScalarProperty Name="ptotalproducido" ColumnName="ptotalproducido" />
+          <ScalarProperty Name="pinproduce" ColumnName="pinproduce" />
+          <ScalarProperty Name="ptotinproduce" ColumnName="ptotinproduce" />
+          <ScalarProperty Name="psucursal" ColumnName="psucursal" />
+          <ScalarProperty Name="pagotado" ColumnName="pagotado" />
+          <ScalarProperty Name="pfechaV" ColumnName="pfechaV" />
+          <ScalarProperty Name="pcostosalen" ColumnName="pcostosalen" />
+          <ScalarProperty Name="phoy" ColumnName="phoy" />
+          <ScalarProperty Name="ptotalhoy" ColumnName="ptotalhoy" />
+          <ScalarProperty Name="pehoy" ColumnName="pehoy" />
+          <ScalarProperty Name="petotalhoy" ColumnName="petotalhoy" />
+          <ScalarProperty Name="pobservacion" ColumnName="pobservacion" />
+          <ScalarProperty Name="prestinge" ColumnName="prestinge" />
+          <ScalarProperty Name="prestinmax" ColumnName="prestinmax" />
+          <ScalarProperty Name="pdescuenta" ColumnName="pdescuenta" />
+          <ScalarProperty Name="pcomision" ColumnName="pcomision" />
+          <ScalarProperty Name="pchistoric" ColumnName="pchistoric" />
+          <ScalarProperty Name="ploteis" ColumnName="ploteis" />
+          <ScalarProperty Name="ptallais" ColumnName="ptallais" />
+          <ScalarProperty Name="pcoloris" ColumnName="pcoloris" />
+          <ScalarProperty Name="pintercode" ColumnName="pintercode" />
+          <ScalarProperty Name="pdatevoid" ColumnName="pdatevoid" />
+          <ScalarProperty Name="pmoneydif" ColumnName="pmoneydif" />
+          <ScalarProperty Name="pcahonta" ColumnName="pcahonta" />
+          <ScalarProperty Name="plitros" ColumnName="plitros" />
+          <ScalarProperty Name="pgrados" ColumnName="pgrados" />
+          <ScalarProperty Name="pespecie" ColumnName="pespecie" />
+          <ScalarProperty Name="plock" ColumnName="plock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="otrmoney">
+      <EntityTypeMapping TypeName="d3xd_dbaseModel.otrmoney">
+        <MappingFragment StoreEntitySet="otrmoney">
+          <ScalarProperty Name="otipo5" ColumnName="otipo5" />
+          <ScalarProperty Name="vnomb5" ColumnName="vnomb5" />
+          <ScalarProperty Name="vcambiob5" ColumnName="vcambiob5" />
+          <ScalarProperty Name="vcambioa5" ColumnName="vcambioa5" />
+          <ScalarProperty Name="otipo4" ColumnName="otipo4" />
+          <ScalarProperty Name="vnomb4" ColumnName="vnomb4" />
+          <ScalarProperty Name="vcambiob4" ColumnName="vcambiob4" />
+          <ScalarProperty Name="vcambioa4" ColumnName="vcambioa4" />
+          <ScalarProperty Name="otipo3" ColumnName="otipo3" />
+          <ScalarProperty Name="vnomb3" ColumnName="vnomb3" />
+          <ScalarProperty Name="vcambiob3" ColumnName="vcambiob3" />
+          <ScalarProperty Name="vcambioa3" ColumnName="vcambioa3" />
+          <ScalarProperty Name="otipo2" ColumnName="otipo2" />
+          <ScalarProperty Name="vnomb2" ColumnName="vnomb2" />
+          <ScalarProperty Name="vcambiob2" ColumnName="vcambiob2" />
+          <ScalarProperty Name="vcambioa2" ColumnName="vcambioa2" />
+          <ScalarProperty Name="otipo1" ColumnName="otipo1" />
+          <ScalarProperty Name="vnomb1" ColumnName="vnomb1" />
+          <ScalarProperty Name="vcambiob1" ColumnName="vcambiob1" />
+          <ScalarProperty Name="vcambioa1" ColumnName="vcambioa1" />
+          <ScalarProperty Name="vdecov" ColumnName="vdecov" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

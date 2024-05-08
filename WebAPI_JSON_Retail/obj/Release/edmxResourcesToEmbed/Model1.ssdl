@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="d3xd_dbaseModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="otrmoney">
+    <Key>
+      <PropertyRef Name="vdecov" />
+    </Key>
+    <Property Name="vdecov" Type="int" Nullable="false" />
+    <Property Name="vcambioa1" Type="double" />
+    <Property Name="vcambiob1" Type="double" />
+    <Property Name="vnomb1" Type="varchar" MaxLength="10" />
+    <Property Name="otipo1" Type="int" />
+    <Property Name="vcambioa2" Type="double" />
+    <Property Name="vcambiob2" Type="double" />
+    <Property Name="vnomb2" Type="varchar" MaxLength="10" />
+    <Property Name="otipo2" Type="int" />
+    <Property Name="vcambioa3" Type="double" />
+    <Property Name="vcambiob3" Type="double" />
+    <Property Name="vnomb3" Type="varchar" MaxLength="10" />
+    <Property Name="otipo3" Type="int" />
+    <Property Name="vcambioa4" Type="double" />
+    <Property Name="vcambiob4" Type="double" />
+    <Property Name="vnomb4" Type="varchar" MaxLength="10" />
+    <Property Name="otipo4" Type="int" />
+    <Property Name="vcambioa5" Type="double" />
+    <Property Name="vcambiob5" Type="double" />
+    <Property Name="vnomb5" Type="varchar" MaxLength="10" />
+    <Property Name="otipo5" Type="int" />
+  </EntityType>
+  <EntityType Name="productos">
+    <Key>
+      <PropertyRef Name="pcode" />
+    </Key>
+    <Property Name="pcode" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="preferencia" Type="varchar" MaxLength="15" />
+    <Property Name="pdescribe" Type="varchar" MaxLength="200" />
+    <Property Name="pdepaid" Type="int" />
+    <Property Name="pdepartamento" Type="varchar" MaxLength="70" />
+    <Property Name="plinid" Type="int" />
+    <Property Name="psublinea" Type="varchar" MaxLength="70" />
+    <Property Name="plinida" Type="int" />
+    <Property Name="psublineaa" Type="varchar" MaxLength="70" />
+    <Property Name="pmarid" Type="int" />
+    <Property Name="pmarca" Type="varchar" MaxLength="70" />
+    <Property Name="pproid" Type="int" />
+    <Property Name="pproveedor" Type="varchar" MaxLength="140" />
+    <Property Name="pgarantia" Type="varchar" MaxLength="70" />
+    <Property Name="pextras" Type="varchar" MaxLength="100" />
+    <Property Name="pcosto" Type="double" />
+    <Property Name="pcostoreal" Type="double" />
+    <Property Name="pgastos" Type="double" />
+    <Property Name="pdesc1" Type="double" />
+    <Property Name="pventa1" Type="double" />
+    <Property Name="pporc1" Type="double" />
+    <Property Name="pventa2" Type="double" />
+    <Property Name="pporc2" Type="double" />
+    <Property Name="pventa3" Type="double" />
+    <Property Name="pporc3" Type="double" />
+    <Property Name="pventa4" Type="double" />
+    <Property Name="pporc4" Type="double" />
+    <Property Name="pventa5" Type="double" />
+    <Property Name="pporc5" Type="double" />
+    <Property Name="pempaque" Type="double" />
+    <Property Name="pmaxp2" Type="int" />
+    <Property Name="pmaxp3" Type="int" />
+    <Property Name="pmedida" Type="varchar" MaxLength="5" />
+    <Property Name="pmedempaque" Type="varchar" MaxLength="5" />
+    <Property Name="piva" Type="int" />
+    <Property Name="pserialchk" Type="int" />
+    <Property Name="pden" Type="int" />
+    <Property Name="pexiste" Type="double" />
+    <Property Name="pdeposito1" Type="double" />
+    <Property Name="pdeposito2" Type="double" />
+    <Property Name="pdeposito3" Type="double" />
+    <Property Name="pdeposito4" Type="double" />
+    <Property Name="pdeposito5" Type="int" />
+    <Property Name="pdeposito6" Type="int" />
+    <Property Name="pdeposito7" Type="int" />
+    <Property Name="pdeposito8" Type="int" />
+    <Property Name="pdeposito9" Type="int" />
+    <Property Name="pdeposito10" Type="int" />
+    <Property Name="pubicaplace" Type="varchar" MaxLength="10" />
+    <Property Name="pcomprometido" Type="double" />
+    <Property Name="papartado" Type="double" />
+    <Property Name="pproduce" Type="double" />
+    <Property Name="pcostoxuniini" Type="double" />
+    <Property Name="pinventarioinicial" Type="double" />
+    <Property Name="pcostoinventi" Type="double" />
+    <Property Name="pentradasx" Type="double" />
+    <Property Name="ptotalentradas" Type="double" />
+    <Property Name="psalidasx" Type="double" />
+    <Property Name="ptotalsalidas" Type="double" />
+    <Property Name="pajustadox" Type="double" />
+    <Property Name="ptotalajustado" Type="double" />
+    <Property Name="ptrasladoenviado" Type="double" />
+    <Property Name="ptrasladorecibido" Type="double" />
+    <Property Name="pproducido" Type="double" />
+    <Property Name="ptotalproducido" Type="double" />
+    <Property Name="pinproduce" Type="double" />
+    <Property Name="ptotinproduce" Type="double" />
+    <Property Name="psucursal" Type="double" />
+    <Property Name="pagotado" Type="double" />
+    <Property Name="pfechaV" Type="varchar" MaxLength="22" />
+    <Property Name="pcostosalen" Type="double" />
+    <Property Name="phoy" Type="double" />
+    <Property Name="ptotalhoy" Type="double" />
+    <Property Name="pehoy" Type="double" />
+    <Property Name="petotalhoy" Type="double" />
+    <Property Name="pobservacion" Type="varchar" MaxLength="50" />
+    <Property Name="prestinge" Type="int" />
+    <Property Name="prestinmax" Type="int" />
+    <Property Name="pdescuenta" Type="double" />
+    <Property Name="pcomision" Type="double" />
+    <Property Name="pchistoric" Type="double" />
+    <Property Name="ploteis" Type="int" />
+    <Property Name="ptallais" Type="int" />
+    <Property Name="pcoloris" Type="int" />
+    <Property Name="pintercode" Type="varchar" MaxLength="18" />
+    <Property Name="pdatevoid" Type="varchar" MaxLength="10" />
+    <Property Name="pmoneydif" Type="int" />
+    <Property Name="pcahonta" Type="int" />
+    <Property Name="plitros" Type="double" />
+    <Property Name="pgrados" Type="int" />
+    <Property Name="pespecie" Type="varchar" MaxLength="20" />
+    <Property Name="plock" Type="int" />
+  </EntityType>
+  <EntityContainer Name="d3xd_dbaseModelStoreContainer">
+    <EntitySet Name="otrmoney" EntityType="Self.otrmoney" Schema="d3xd_dbase" store:Type="Tables" />
+    <EntitySet Name="productos" EntityType="Self.productos" Schema="d3xd_dbase" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

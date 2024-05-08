@@ -1,0 +1,23 @@
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll.config
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csprojResolveAssemblyReference.cache
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.dll
+D:\HC\My Systems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\Publicidad\publicidad.png
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll.config
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csproj.CoreCompileInputs.cache
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.dll
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csproj.CopyComplete
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csprojAssemblyReference.cache
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csproj.CoreCompileInputs.cache
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.dll
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\Publicidad\publicidad.png
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll.config
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\web_local_projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\x86\Debug\WebAPI_JSON_Retail.csproj.CopyComplete

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\webAPI_Retail</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/JsonServices.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/JsonServices.Web.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/kssLibWeb.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/Publicidad/publicidad.png">
+      <publishTime>07/05/2020 21:42:50</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/WebAPI_JSON_Retail.dll">
+      <publishTime>12/26/2020 22:41:19</publishTime>
+    </File>
+    <File Include="bin/WebAPI_JSON_Retail.pdb">
+      <publishTime>12/26/2020 22:41:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/05/2020 14:17:24</publishTime>
+    </File>
+    <File Include="DSRetail.xsc">
+      <publishTime>12/26/2020 22:41:05</publishTime>
+    </File>
+    <File Include="DSRetail.xss">
+      <publishTime>12/26/2020 22:41:05</publishTime>
+    </File>
+    <File Include="dsSQLServer_kssDB.xsc">
+      <publishTime>08/21/2020 04:15:16</publishTime>
+    </File>
+    <File Include="dsSQLServer_kssDB.xss">
+      <publishTime>08/21/2020 04:15:14</publishTime>
+    </File>
+    <File Include="frmConfig.aspx">
+      <publishTime>08/28/2020 20:33:08</publishTime>
+    </File>
+    <File Include="frmDivisas.aspx">
+      <publishTime>07/05/2020 14:24:50</publishTime>
+    </File>
+    <File Include="frmInventario.aspx">
+      <publishTime>07/05/2020 14:24:50</publishTime>
+    </File>
+    <File Include="frmPublicidad.aspx">
+      <publishTime>07/05/2020 19:45:57</publishTime>
+    </File>
+    <File Include="frmVerificador.aspx">
+      <publishTime>07/05/2020 14:35:46</publishTime>
+    </File>
+    <File Include="Handler1.ashx">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/Banner kalixto.jpg">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/Banner kalixto.png">
+      <publishTime>01/19/2020 19:45:46</publishTime>
+    </File>
+    <File Include="Imagenes/kss POS-91 %282%29.png">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/KssLogo.png">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/Logo.jpg">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/panel465x281.jpg">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="KSS.ico">
+      <publishTime>12/08/2010 02:20:34</publishTime>
+    </File>
+    <File Include="Main_Style.css">
+      <publishTime>12/08/2019 17:50:40</publishTime>
+    </File>
+    <File Include="Publicidad/publicidad.png">
+      <publishTime>07/05/2020 21:42:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/26/2020 22:41:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

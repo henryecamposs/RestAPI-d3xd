@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\app.publish\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/25/2014 01:34:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/25/2014 01:34:42</publishTime>
+    </File>
+    <File Include="bin/JsonServices.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/JsonServices.Web.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/kssLibWeb.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>07/10/2019 17:08:40</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF6.dll">
+      <publishTime>07/10/2019 17:08:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/04/2019 23:23:17</publishTime>
+    </File>
+    <File Include="bin/Publicidad/publicidad.png">
+      <publishTime>07/05/2020 21:42:50</publishTime>
+    </File>
+    <File Include="bin/wResAPI_d3xd.dll">
+      <publishTime>10/18/2021 21:31:43</publishTime>
+    </File>
+    <File Include="bin/wResAPI_d3xd.pdb">
+      <publishTime>10/18/2021 21:31:43</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/18/2021 19:22:49</publishTime>
+    </File>
+    <File Include="DSRetail.xsc">
+      <publishTime>12/26/2020 22:41:05</publishTime>
+    </File>
+    <File Include="DSRetail.xss">
+      <publishTime>12/26/2020 22:41:05</publishTime>
+    </File>
+    <File Include="frmConfig.aspx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="frmDivisas.aspx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="frmInventario.aspx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="frmPublicidad.aspx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="frmVerificador.aspx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="Handler1.ashx">
+      <publishTime>10/18/2021 19:22:28</publishTime>
+    </File>
+    <File Include="Imagenes/Banner kalixto.png">
+      <publishTime>01/19/2020 19:45:46</publishTime>
+    </File>
+    <File Include="Imagenes/kss POS-91 %282%29.png">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/KssLogo.png">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/Logo.jpg">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="Imagenes/panel465x281.jpg">
+      <publishTime>12/04/2019 23:23:21</publishTime>
+    </File>
+    <File Include="KSS.ico">
+      <publishTime>12/08/2010 02:20:34</publishTime>
+    </File>
+    <File Include="Main_Style.css">
+      <publishTime>10/18/2021 15:03:47</publishTime>
+    </File>
+    <File Include="Model1.edmx.diagram">
+      <publishTime>10/18/2021 17:17:39</publishTime>
+    </File>
+    <File Include="Publicidad/publicidad.png">
+      <publishTime>07/05/2020 21:42:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/18/2021 21:31:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

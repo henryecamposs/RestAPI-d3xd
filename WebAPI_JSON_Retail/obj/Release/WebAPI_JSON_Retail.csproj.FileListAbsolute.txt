@@ -1,0 +1,18 @@
+D:\HC\My Systems\apps Android Studio\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\HC\My Systems\apps Android Studio\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\HC\My Systems\apps Android Studio\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.dll
+D:\HC\My Systems\apps Android Studio\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.pdb
+D:\HC\My Systems\apps Android Studio\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.csprojResolveAssemblyReference.cache
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll.config
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.csprojResolveAssemblyReference.cache
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.dll
+D:\kss Systrems\WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll.config
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.dll
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\bin\WebAPI_JSON_Retail.pdb
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.csprojResolveAssemblyReference.cache
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.csproj.CoreCompileInputs.cache
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.dll
+D:\KSS Projects\Web Local Projects\w_WebAPI_JSON_Retail\WebAPI_JSON_Retail\obj\Release\WebAPI_JSON_Retail.pdb

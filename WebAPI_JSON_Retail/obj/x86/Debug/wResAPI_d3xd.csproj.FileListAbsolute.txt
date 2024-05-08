@@ -1,0 +1,17 @@
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\obj\x86\Debug\wResAPI_d3xd.csproj.CoreCompileInputs.cache
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\Publicidad\publicidad.png
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\wResAPI_d3xd.dll.config
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\wResAPI_d3xd.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\wResAPI_d3xd.pdb
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\MySql.Data.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\MySql.Data.Entity.EF6.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\MySql.Data.xml
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\MySql.Data.Entity.EF6.xml
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\obj\x86\Debug\wResAPI_d3xd.csproj.CopyComplete
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\obj\x86\Debug\wResAPI_d3xd.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\obj\x86\Debug\wResAPI_d3xd.pdb
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\EntityFramework.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\EntityFramework.SqlServer.dll
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\EntityFramework.xml
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\bin\EntityFramework.SqlServer.xml
+D:\KSS_Projects\web_local_projects\wRestAPI_d3xd\WebAPI_JSON_Retail\obj\x86\Debug\wResAPI_d3xd.csprojAssemblyReference.cache

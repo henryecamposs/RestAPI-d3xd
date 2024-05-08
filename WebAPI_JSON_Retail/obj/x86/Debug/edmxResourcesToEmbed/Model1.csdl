@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="d3xd_dbaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="productos">
+    <Key>
+      <PropertyRef Name="pcode" />
+    </Key>
+    <Property Name="pcode" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="preferencia" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="pdescribe" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="pdepaid" Type="Int32" />
+    <Property Name="pdepartamento" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="plinid" Type="Int32" />
+    <Property Name="psublinea" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="plinida" Type="Int32" />
+    <Property Name="psublineaa" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="pmarid" Type="Int32" />
+    <Property Name="pmarca" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="pproid" Type="Int32" />
+    <Property Name="pproveedor" Type="String" MaxLength="140" FixedLength="false" Unicode="false" />
+    <Property Name="pgarantia" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="pextras" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="pcosto" Type="Double" />
+    <Property Name="pcostoreal" Type="Double" />
+    <Property Name="pgastos" Type="Double" />
+    <Property Name="pdesc1" Type="Double" />
+    <Property Name="pventa1" Type="Double" />
+    <Property Name="pporc1" Type="Double" />
+    <Property Name="pventa2" Type="Double" />
+    <Property Name="pporc2" Type="Double" />
+    <Property Name="pventa3" Type="Double" />
+    <Property Name="pporc3" Type="Double" />
+    <Property Name="pventa4" Type="Double" />
+    <Property Name="pporc4" Type="Double" />
+    <Property Name="pventa5" Type="Double" />
+    <Property Name="pporc5" Type="Double" />
+    <Property Name="pempaque" Type="Double" />
+    <Property Name="pmaxp2" Type="Int32" />
+    <Property Name="pmaxp3" Type="Int32" />
+    <Property Name="pmedida" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="pmedempaque" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="piva" Type="Int32" />
+    <Property Name="pserialchk" Type="Int32" />
+    <Property Name="pden" Type="Int32" />
+    <Property Name="pexiste" Type="Double" />
+    <Property Name="pdeposito1" Type="Double" />
+    <Property Name="pdeposito2" Type="Double" />
+    <Property Name="pdeposito3" Type="Double" />
+    <Property Name="pdeposito4" Type="Double" />
+    <Property Name="pdeposito5" Type="Int32" />
+    <Property Name="pdeposito6" Type="Int32" />
+    <Property Name="pdeposito7" Type="Int32" />
+    <Property Name="pdeposito8" Type="Int32" />
+    <Property Name="pdeposito9" Type="Int32" />
+    <Property Name="pdeposito10" Type="Int32" />
+    <Property Name="pubicaplace" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="pcomprometido" Type="Double" />
+    <Property Name="papartado" Type="Double" />
+    <Property Name="pproduce" Type="Double" />
+    <Property Name="pcostoxuniini" Type="Double" />
+    <Property Name="pinventarioinicial" Type="Double" />
+    <Property Name="pcostoinventi" Type="Double" />
+    <Property Name="pentradasx" Type="Double" />
+    <Property Name="ptotalentradas" Type="Double" />
+    <Property Name="psalidasx" Type="Double" />
+    <Property Name="ptotalsalidas" Type="Double" />
+    <Property Name="pajustadox" Type="Double" />
+    <Property Name="ptotalajustado" Type="Double" />
+    <Property Name="ptrasladoenviado" Type="Double" />
+    <Property Name="ptrasladorecibido" Type="Double" />
+    <Property Name="pproducido" Type="Double" />
+    <Property Name="ptotalproducido" Type="Double" />
+    <Property Name="pinproduce" Type="Double" />
+    <Property Name="ptotinproduce" Type="Double" />
+    <Property Name="psucursal" Type="Double" />
+    <Property Name="pagotado" Type="Double" />
+    <Property Name="pfechaV" Type="String" MaxLength="22" FixedLength="false" Unicode="false" />
+    <Property Name="pcostosalen" Type="Double" />
+    <Property Name="phoy" Type="Double" />
+    <Property Name="ptotalhoy" Type="Double" />
+    <Property Name="pehoy" Type="Double" />
+    <Property Name="petotalhoy" Type="Double" />
+    <Property Name="pobservacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prestinge" Type="Int32" />
+    <Property Name="prestinmax" Type="Int32" />
+    <Property Name="pdescuenta" Type="Double" />
+    <Property Name="pcomision" Type="Double" />
+    <Property Name="pchistoric" Type="Double" />
+    <Property Name="ploteis" Type="Int32" />
+    <Property Name="ptallais" Type="Int32" />
+    <Property Name="pcoloris" Type="Int32" />
+    <Property Name="pintercode" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Name="pdatevoid" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="pmoneydif" Type="Int32" />
+    <Property Name="pcahonta" Type="Int32" />
+    <Property Name="plitros" Type="Double" />
+    <Property Name="pgrados" Type="Int32" />
+    <Property Name="pespecie" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="plock" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="d3xd_dbaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="productos" EntityType="Self.productos" />
+    <EntitySet Name="otrmoney" EntityType="d3xd_dbaseModel.otrmoney" />
+  </EntityContainer>
+  <EntityType Name="otrmoney">
+    <Key>
+      <PropertyRef Name="vdecov" />
+    </Key>
+    <Property Name="vdecov" Type="Int32" Nullable="false" />
+    <Property Name="vcambioa1" Type="Double" />
+    <Property Name="vcambiob1" Type="Double" />
+    <Property Name="vnomb1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="otipo1" Type="Int32" />
+    <Property Name="vcambioa2" Type="Double" />
+    <Property Name="vcambiob2" Type="Double" />
+    <Property Name="vnomb2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="otipo2" Type="Int32" />
+    <Property Name="vcambioa3" Type="Double" />
+    <Property Name="vcambiob3" Type="Double" />
+    <Property Name="vnomb3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="otipo3" Type="Int32" />
+    <Property Name="vcambioa4" Type="Double" />
+    <Property Name="vcambiob4" Type="Double" />
+    <Property Name="vnomb4" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="otipo4" Type="Int32" />
+    <Property Name="vcambioa5" Type="Double" />
+    <Property Name="vcambiob5" Type="Double" />
+    <Property Name="vnomb5" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="otipo5" Type="Int32" />
+  </EntityType>
+</Schema>
